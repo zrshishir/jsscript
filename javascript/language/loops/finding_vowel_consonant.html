@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finding vowel and consonant from an string</title>
+</head>
+<body>
+    
+    <script>
+        function vowelsAndConsonants(s) {
+            var vowel = ''
+            var conso = ''
+            var result = ''
+        
+            for(var i = 0; i < s.length; i++){
+                if(s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i) == 'i' || s.charAt(i) == 'o' || s.charAt(i) == 'u'){
+                    vowel = vowel + s.charAt(i) 
+                    
+                }else{
+                    conso = conso + s.charAt(i)
+                }
+            }
+            result = vowel + conso
+            
+            for(var i = 0; i < result.length; i++){
+                console.log(result.charAt(i))
+            }
+        } 
+
+        vowelsAndConsonants('javascriptloops')
+    </script>
+</body>
+</html>
