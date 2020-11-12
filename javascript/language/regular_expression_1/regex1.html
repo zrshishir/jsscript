@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression 1</title>
+</head>
+<body>
+    <script>
+       function regexVar(){
+        let re = /^([aeiou]).+\1$/;
+        /*
+        * Do not remove the return statement
+        */
+        return re;
+       }
+
+function main() {
+    const re = regexVar();
+    const s = readLine();
+    
+    console.log(re.test(s));
+}
+    </script>
+</body>
+</html>
