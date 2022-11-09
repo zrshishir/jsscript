@@ -3,8 +3,8 @@
 const fs = require('fs');
 const zlib = require('zlib');
 
-const READ_FILE_NAME = 'test.txt';
-const WRITE_FILE_NAME = 'test.txt.br';
+const READ_FILE_NAME = 'deep_analytical_engine.wasm';
+const WRITE_FILE_NAME = 'deep_analytical_engine.wasm.br';
 
 // Create read and write streams
 const readStream = fs.createReadStream(READ_FILE_NAME);
