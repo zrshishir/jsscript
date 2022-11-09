@@ -1,0 +1,15 @@
+Using n-gram algorithm in Golang, we are extracing 3-gram phrases (by language detection) and counting the most used phrases.
+
+### How to run
+
+#### clone the repo
+#### go to the project directory and run the following command on terminal
+        GOOS=js GOARCH=wasm go build -o assets/json.wasm
+#### go to /cmd/server/ directory and run the following command
+        go run main.go
+
+#### open your browser and open your localhost with following port
+        http://localhost:9999/
+
+#### open js console and call the followign function with two parameters
+        geniesWand(`You're in good company with WritesonicThousands of marketers, agencies, and entrepreneurs choose Writesonic to automate and simplify their content marketing.My favorite article writing tool, a must for organic SEO!The platform is easy to use and navigate.`, `english`)
